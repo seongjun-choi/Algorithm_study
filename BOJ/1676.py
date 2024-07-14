@@ -1,9 +1,11 @@
 n = int (input())
-fac = 1
-for i in range(1, n+1):
-    fac *= i
+
 
 cnt = 0
 
-while True:
+while n>0:
+    cnt += n//5
+    n //= 5
     
+
+print(cnt)
