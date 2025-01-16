@@ -1,5 +1,5 @@
 n = int(input())
-str = list(input())
+str = input()
 
 sum = 0
 for i in range(len(str)):
