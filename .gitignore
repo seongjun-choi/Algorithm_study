@@ -260,3 +260,4 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,c++,python
 BOJ_cpp/*.dSYM/
+BOJ_cpp/build
