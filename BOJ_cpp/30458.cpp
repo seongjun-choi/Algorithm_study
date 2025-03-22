@@ -16,20 +16,16 @@ int main()
     {
         cnt[s[n / 2] - 'a']--;
     }
-    int flag = 1;
+
     for (int i = 0; i < 26; i++)
     {
         if (cnt[i] % 2 == 1)
         {
-            flag = 0;
-            break;
+            cout << "No" << endl;
+            return 0;
         }
     }
-    if (flag == 1)
-    {
-        cout << "Yes" << endl;
-    }
-    else
-        cout << "No" << endl;
+
+    cout << "Yes" << endl;
     return 0;
 }
