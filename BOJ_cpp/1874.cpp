@@ -18,22 +18,25 @@ int main()
     {
         int x;
         cin >> x;
-        while(cnt <= x){
+        while (cnt <= x)
+        {
             st.push(cnt++);
             ops.push_back('+');
         }
-        if(st.top() == x){
+        if (st.top() == x)
+        {
             st.pop();
             ops.push_back('-');
         }
-        else{
+        else
+        {
             cout << "NO\n";
             return 0;
         }
-    }    
-        
+    }
 
-    for(char op : ops){
+    for (char op : ops)
+    {
         cout << op << "\n";
     }
 
